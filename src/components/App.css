@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(162, 98, 22);
+}
+
+.landing-container {
+  padding: 30px;
+  background-color: rgb(89, 53, 14);
+  /* background-color: rgb(162, 98, 22); */
+  color: #fff;
+  /* padding: 20px; */
+}
+
+.navbar {
+  background-color: rgb(162, 98, 22); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  /* margin-right: 20px; */
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-block {
+  width: 50%;
+}
+
+.image-block {
+  width: 50%;
+}
+
+.image-block img {
+  width: 100%;
+  height: auto;
+}
